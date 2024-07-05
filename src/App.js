@@ -10,7 +10,7 @@ export default function GreetUser() {
 
   const greetUser = () => {
     alert(`Hello, ${name}!`);
-    
+    setName('');
   };
 
   return (
